@@ -25,20 +25,16 @@ public class Vehicle{
     private Long vehicle_id;
 
     @NotNull
-    @Lob
     private String vehicle_name;
 
     @NotNull
-    @Lob
     private double vehicle_price;
 
     @NotNull
-    @Lob
-    private int currency_unit;
+    private String currency_unit;
 
     @NotNull
-    @Lob
-    private int  currency_type;
+    private String  currency_type;
     
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "manufacture_id", nullable = false)
