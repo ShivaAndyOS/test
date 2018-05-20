@@ -53,4 +53,13 @@ public class Vehicle{
     */
 
     // Getters and Setters (Omitted for brevity)
+    
+  /*   {
+"vehicle_name": "BMW 5 Series",
+"vehicle_price": 2.62,
+"currency_unit": "INR",
+"currency_type": "Lakhs",
+"manufacture_id": "10"
+}
+     */
 }
